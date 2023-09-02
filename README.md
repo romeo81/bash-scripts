@@ -11,13 +11,13 @@ then you need to change the permission on the files with
 
 infomational:
 
-- #System-info
+- # System-info
         pulls the details of the current hardware 
   
-- #install-docker
+- # install-docker
         installes docker and adds docker to the user group.
 
-- #os-update
+- # apt-update
         performs the apt update && upgrade -y
         and gives you the option to reboot.
   
