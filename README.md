@@ -5,7 +5,7 @@ to get them working you will need to have git installed and clone the repo with
 
       sudo git clone https://github.com/romeo81/bash-scripts.git 
 
-then you need to change the promissions on the files with 
+then you need to change the permission on the files with 
 
       sudo chmod +x <filename.sh>
 
