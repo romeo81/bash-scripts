@@ -25,7 +25,7 @@ under certain conditions.
 # Defining USAGE Variable to print usage for -h or undefined args
 
 USAGE="
-Usage: sudo bash ubuntu-update.sh [-ugdrh]
+Usage: sudo bash os-update.sh [-ugdrh]
        No option - Run all options (recommended)
        -u Don't run apt-get update
        -g Don't run apt-get upgrade -y
