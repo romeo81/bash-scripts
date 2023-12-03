@@ -1,0 +1,9 @@
+***********************************************************
+*****-when zombies shows up                             ***
+**   ps axo stat,ppid,pid,comm | grep -w defunct        ***
+**   Z       2249    2251 s6-notifyonchec <defunct>     ***
+**   Z       2254    2255 s6-notifyonchec <defunct>     ***
+**   sudo kill 2249					                            ***
+**   sudo kill 2254					                            ***
+**   ps axo stat,ppid,pid,comm | grep -w defunct	      ***
+***********************************************************
